@@ -1,1 +1,2 @@
 Pluto is a real planet!
+Adding a new line to the file
