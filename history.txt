@@ -1,0 +1,108 @@
+    1  cd bootcamp
+    2  ls
+    3  nono do-stats.sh
+    4  ls
+    5  cd nelle
+    6  ls
+    7  cd north-pacific-gyre
+    8  nono do-stats.sh
+    9  ls
+   10  cd 2012-07-03
+   11  nono do-stats.sh
+   12  nano do-stats.sh
+   13  cd ..
+   14  cd ../..
+   15  cd python
+   16  ipython notebook
+   17  ls
+   18  mkdir planets
+   19  cd ..
+   20  mkdir planets
+   21  cd planets/
+   22  git init
+   23  git status
+   24  nano mars.txt
+   25  ls
+   26  git status
+   27  git add mars.txt
+   28  git status
+   29  git config --global user.email "sborglin@gmail.com"
+   30  git config --global user.name "Sharon Borglin"
+   31  cat ~/.gitconfig
+   32  git config --global core.editor "nano"
+   33  git config --global color.ui "auto"
+   34  git status
+   35  git commit
+   36  git status
+   37  ls
+   38  git log
+   39  nano mars.txt
+   40  git status
+   41  git add mars.txt
+   42  git status
+   43  git commit
+   44  git status
+   45  git log
+   46  nano mercury.txt
+   47  ls
+   48  nano mars.txt
+   49  git status
+   50  git diff mars.txt
+   51  git add mars.txt
+   52  git status
+   53  git add mercury.txt
+   54  git status
+   55  git reset HEAD mars.txt
+   56  git status
+   57  git checkout -- mars.txt
+   58  git status
+   59  cat mars.txt
+   60  git commit
+   61  git status
+   62  git log
+   63  git diff 6ec428f9a1bb205b649ed3134a57ae7fa392c845
+   64  git checkout 6ec428f9a1bb205b649ed3134a57ae7fa392c845 mars.txt
+   65  git status
+   66  car mars.txt
+   67  cat mars.txt
+   68  ls 
+   69  git reset HEAD mars.txt
+   70  git status
+   71  git checkout -- mars.txt
+   72  git status
+   73  git remote remove origin
+   74  cd ..
+   75  ls
+   76  git clone https://github.com/smtikoo/planets.git planets2
+   77  ls
+   78  cd planets2
+   79  ls
+   80  ls
+   81  get status
+   82  git status
+   83  ls
+   84  git log
+   85  git pull origin master
+   86  git log
+   87  ls
+   88  cat mars.txt
+   89  nano pluto.txt
+   90  git status
+   91  git add pluto.txt
+   92  ls
+   93  git status
+   94  git commit pluto.txt -m "added a line to the file"
+   95  git status
+   96  git push origin master 
+   97  history
+   98  nano pluto.txt
+   99  history
+  100  git status
+  101  git add pluto.txt
+  102  git status
+  103  git commit pluto.txt -m "made a change"
+  104  git push origin master 
+  105  git push origin master 
+  106  git fetch origin
+  107  git status
+  108  history > history.txt
